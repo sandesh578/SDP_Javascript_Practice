@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+    <title>JavaScript On Browser</title>
+</head>
+
+<body>
+    <script>
+        /*let userName = prompt("Enter your anme?", '');
+
+        if (userName == 'Admin') {
+            let password = prompt("Enter your password?", '');
+
+            if (password === 'TheMaster') {
+                alert('Welcome!!!!');
+            } else if (password === '' || password === null) {
+                alert("Canceled");
+            } else {
+                alert("Wrong password");
+            }
+        } else if (userName === '' || userName === null) {
+            alert("Canceled");
+        } else {
+            alert("I don't know you");
+        }
+        */
+      
+       /* outer:for (let i = 0; i < 3; i++) {
+
+            for (let j = 0; j < 3; j++) {
+
+                  let input = prompt(`Value at coords (${i},${j})`, '');
+
+                  if(!input)
+                  {
+                      break outer;
+                  }
+          }
+        }
+         alert('Done!');
+
+         let num;*/
+
+    /*do {
+         num = prompt("Enter a number greater than 100?", 00);
+    } while (num <= 100 && num);
+
+    */
+
+    function ask(question, yes, no) {
+    if (confirm(question)) yes()
+    else no();
+    }
+  
+     function showOk() {
+        alert( "You agreed." );
+    }
+  
+    function showCancel() {
+      alert( "You canceled the execution." );
+    }
+  
+     ask("Do you agree?", showOk, showCancel);
+
+    </script>
+</body>
+
+</html>
