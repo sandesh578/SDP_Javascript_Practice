@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <title>JavaScript On Browser</title>
+</head>
+
+<body>
+    <script>
+        function sumInput()
+        {
+            let arr=[];
+            while(true)
+            {
+                let ele=prompt("Enter a number:",0);
+                arr.push(+ele);
+                if (ele === ""||ele === null||!isFinite(ele))
+                {
+                    break;
+                }
+            }
+
+         let sum=0;
+         for(let num of arr)
+         {
+             sum+=num;
+         }
+         return sum;
+        }
+       console.log(sumInput());
+          
+    </script>
+</body>
+</html>
