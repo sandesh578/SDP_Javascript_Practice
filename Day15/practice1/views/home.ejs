@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website</title>
+</head>
+<body>
+    <h1>My Website</h1>
+    <p>Whats the current year?</p>
+    <form action="/result" method="POST">
+      <input type="text" name="year"/>
+      <button>Submit form</button>
+    </form>
+    <% if(isCorrect) {%>
+        <p>Your answer is correct.</p>
+    <%} else {%>
+        <p>Your answer is incorrect.</p>
+    <% } %>
+</body>
+</html>
