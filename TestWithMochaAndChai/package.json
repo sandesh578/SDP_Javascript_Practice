@@ -1,0 +1,27 @@
+{
+  "name": "TestWithMochaAndChai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev":"nodemon index.js",
+    "test": "mocha --recursive --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "mongodb": "^3.6.6"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0"
+  }
+}
